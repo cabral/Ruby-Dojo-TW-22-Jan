@@ -1,0 +1,8 @@
+<query>               ::= "π" <select list> <table expression>
+<select list>         ::= <word> [ { "," <word> }... ]
+<table expression>    ::= <from clause> [ <where clause> ]
+<from clause>         ::=   "("<table name> [ { ⋈ <table name> }... ]")"
+<where clause>        ::=   "σ" <search condition>
+<search condition>    ::=   <boolean term> [ { "AND" <boolean term> }... ]
+<boolean term>        ::= <word> "=" <word>
+<word>                ::= \w+

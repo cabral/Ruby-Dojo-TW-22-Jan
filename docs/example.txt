@@ -1,0 +1,3 @@
+π foo bar (baz ⋈ qux)
+π foo bar σ corge = grault (baz ⋈ qux)
+π foo bar σ corge = grault AND garply = waldo (baz ⋈ qux) 
